@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #608c74, #1c4b55);
+}
+
+.cabecalho {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+
+.midia {
+    padding-right: 100px;
+}
+
+.midia img { padding: 15px;}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box1 {
+    color: #F9F9F9;
+    margin: auto;
+}
+
+.imagem { max-width: 50%;}
+
+.apresentacao { gap: 100px;}
+.hayao { font-size: 14px;}
+.chichirro { font-size: 30px;}
+
+.botao {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    transform: skewX(-25deg);
+   }   
+
+.botao1 {
+    background-color: #658E76;
+    background-image: url(play.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 235px;
+    height: 50px;
+    background-position: 30px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.botao2 {
+    background-color: #1c4b55;
+    cursor: pointer;
+    width: 235px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #658E76 1px solid;
+}
